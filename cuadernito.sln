@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6F82922A-AF44-42E7-8D21-B2AAD37EAB05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cuadernito.MicroKernel", "cuadernito\cuadernito.MicroKernel\cuadernito.MicroKernel.csproj", "{AA1A3830-8C39-4EFB-A747-C3CBD76B39EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cuadernito.MicroServices", "cuadernito\cuadernito.MicroServices\cuadernito.MicroServices.csproj", "{DC239FA1-EF2C-4E75-8C5D-10EF1CEBABFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cuadernito.RestAPI", "cuadernito\cuadernito.RestAPI\cuadernito.RestAPI.csproj", "{786A9F7D-45CD-4831-9024-29087262DAC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cuadernito.UI", "cuadernito\cuadernito.UI\cuadernito.UI.csproj", "{22A9A5C1-91D5-4B21-AEF8-DE15EF149769}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cuadernito.WcfAPI", "cuadernito\cuadernito.WcfAPI\cuadernito.WcfAPI.csproj", "{A9B3B059-773B-4ED1-B01E-2284975665B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cuadernito.WcfAPI.Tests", "cuadernito\cuadernito.WcfAPI.Tests\cuadernito.WcfAPI.Tests.csproj", "{B7339390-0E9A-477D-A035-43A861E79125}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA1A3830-8C39-4EFB-A747-C3CBD76B39EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA1A3830-8C39-4EFB-A747-C3CBD76B39EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA1A3830-8C39-4EFB-A747-C3CBD76B39EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA1A3830-8C39-4EFB-A747-C3CBD76B39EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC239FA1-EF2C-4E75-8C5D-10EF1CEBABFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC239FA1-EF2C-4E75-8C5D-10EF1CEBABFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC239FA1-EF2C-4E75-8C5D-10EF1CEBABFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC239FA1-EF2C-4E75-8C5D-10EF1CEBABFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{786A9F7D-45CD-4831-9024-29087262DAC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{786A9F7D-45CD-4831-9024-29087262DAC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{786A9F7D-45CD-4831-9024-29087262DAC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{786A9F7D-45CD-4831-9024-29087262DAC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22A9A5C1-91D5-4B21-AEF8-DE15EF149769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22A9A5C1-91D5-4B21-AEF8-DE15EF149769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22A9A5C1-91D5-4B21-AEF8-DE15EF149769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22A9A5C1-91D5-4B21-AEF8-DE15EF149769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9B3B059-773B-4ED1-B01E-2284975665B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9B3B059-773B-4ED1-B01E-2284975665B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9B3B059-773B-4ED1-B01E-2284975665B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9B3B059-773B-4ED1-B01E-2284975665B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7339390-0E9A-477D-A035-43A861E79125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7339390-0E9A-477D-A035-43A861E79125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7339390-0E9A-477D-A035-43A861E79125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7339390-0E9A-477D-A035-43A861E79125}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
